@@ -84,6 +84,7 @@ ul {
     justify-content: center;
     gap: 30px;
     padding-top: 50px;
+   margin-bottom: 80px;
 }
 .info-head{
     font-size: 36px;
@@ -105,4 +106,21 @@ ul {
 }
 .container > p{
     text-align: center;
+}
+
+/* section-3 */
+.section-3{
+    padding: 20px 200px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote-author{
+    text-align: end;
+    font-weight: 600;
+    font-size: large;
 }
