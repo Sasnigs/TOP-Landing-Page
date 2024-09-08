@@ -1,40 +1,77 @@
-*{
+/* Universal Reset */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+/* Body Styling */
+body {
     display: flex;
     flex-direction: column;
-    font-family: roboto;
+    font-family: "Roboto", sans-serif; 
 }
-a{
+
+/* Link Styling */
+a {
     text-decoration: none;
-    color: rgb(176, 174, 174);
+    color: #e5e7eb;
 }
-ul{
+
+/* Unordered List Styling */
+ul {
     list-style: none;
+    display: flex;
+    gap: 30px;
 }
-.section-1{
-   background-color: #1f2937;
-   color: white;
-   font-family: "Roboto", sans-serif;
-   font-weight: 400;
+
+/* Section Styling-1 */
+.section-1 {
+    background-color: #1f2937;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 10px 100px;
 }
-.header{
+
+/* Header Styling */
+.header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-.logo{
-    margin-left: 100px;
+
+/* Logo Styling */
+.logo {
     font-weight: 600;
+    font-size: 24px;
 }
-.header-links{
-    margin-right: 100px;
-}
-.header-links > ul{
+/* sub-section 1 */
+.sub-section-1{
     display: flex;
-   gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.hero-container{
+    width: 400px;
+}
+.hero-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-sec-text{
+    font-size: 15px;
+    color: #e5e7eb;
+}
+
+.hero-button{
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
