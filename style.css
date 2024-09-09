@@ -124,3 +124,35 @@ ul {
     font-weight: 600;
     font-size: large;
 }
+
+/* section-4 */
+.section-4{
+   display: flex;
+   justify-content: center;
+   padding: 70px 100px;
+   color: #F9FAF8;
+}
+.sub-section-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    background-color: #3882f6;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+.action-section > h4{
+    font-size: 30px;
+}
+
+.action-section > p{
+    font-size: 12px;
+}
+.action-button{
+    border: 1px solid white;
+    padding: 5px 20px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
