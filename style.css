@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif; 
+    background-color: #1f2937;
 }
 
 /* Link Styling */
@@ -84,7 +85,8 @@ ul {
     justify-content: center;
     gap: 30px;
     padding-top: 50px;
-   margin-bottom: 80px;
+    padding-bottom: 80px;
+    background-color: white;
 }
 .info-head{
     font-size: 36px;
@@ -131,6 +133,7 @@ ul {
    justify-content: center;
    padding: 70px 100px;
    color: #F9FAF8;
+   background-color: white;
 }
 .sub-section-4{
     display: flex;
@@ -155,4 +158,11 @@ ul {
     border-radius: 5px;
     color: white;
     cursor: pointer;
+}
+/* footer */
+footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
